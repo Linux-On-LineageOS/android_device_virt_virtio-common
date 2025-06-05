@@ -94,3 +94,4 @@ else
 DEVICE_MANIFEST_FILE += \
     $(COMMON_PATH)/configs/vintf/manifest_target-level-202404.xml
 endif
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
